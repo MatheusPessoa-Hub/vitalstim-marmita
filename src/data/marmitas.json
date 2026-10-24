@@ -1,0 +1,4275 @@
+[
+ {
+  "id": "m001",
+  "nome": "Estrogonofe de frango com arroz e cenoura",
+  "categoria": "Frango",
+  "gramas": 405,
+  "kcal": 489,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 140,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Creme de leite light",
+    "quantidade": 35,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 25,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Cogumelo champignon",
+    "quantidade": 25,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 20,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 85,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m001.jpg",
+  "foto_prompt": "creamy chicken stroganoff with mushrooms, white rice and diced cooked carrots"
+ },
+ {
+  "id": "m002",
+  "nome": "Estrogonofe de frango, arroz integral e brócolis",
+  "categoria": "Frango",
+  "gramas": 405,
+  "kcal": 483,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 140,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Creme de leite light",
+    "quantidade": 35,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 25,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Cogumelo champignon",
+    "quantidade": 25,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 20,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz integral",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 85,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m002.jpg",
+  "foto_prompt": "creamy chicken stroganoff with mushrooms, brown rice and steamed broccoli florets"
+ },
+ {
+  "id": "m003",
+  "nome": "Frango ao curry com cuscuz",
+  "categoria": "Frango",
+  "gramas": 380,
+  "kcal": 561,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 160,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Curry em pó",
+    "quantidade": 3,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Leite de coco",
+    "quantidade": 40,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 25,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cuscuz marroquino",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m003.jpg",
+  "foto_prompt": "yellow chicken curry cubes with carrot pieces next to fluffy couscous"
+ },
+ {
+  "id": "m004",
+  "nome": "Frango ao curry, arroz e abobrinha",
+  "categoria": "Frango",
+  "gramas": 415,
+  "kcal": 522,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Curry em pó",
+    "quantidade": 3,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Leite de coco",
+    "quantidade": 40,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Abóbora cabotiá",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Abobrinha",
+    "quantidade": 95,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m004.jpg",
+  "foto_prompt": "yellow chicken curry with pumpkin cubes, white rice and sauteed zucchini half-moons"
+ },
+ {
+  "id": "m005",
+  "nome": "Frango desfiado com batata-doce e couve",
+  "categoria": "Frango",
+  "gramas": 390,
+  "kcal": 426,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 160,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 25,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Batata-doce",
+    "quantidade": 180,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Couve",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m005.jpg",
+  "foto_prompt": "shredded chicken in light tomato sauce, roasted sweet potato cubes and sauteed collard greens"
+ },
+ {
+  "id": "m006",
+  "nome": "Frango grelhado com arroz, feijão e vagem",
+  "categoria": "Frango",
+  "gramas": 395,
+  "kcal": 535,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Feijão carioca",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Vagem",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Alho",
+    "quantidade": 3,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m006.jpg",
+  "foto_prompt": "sliced grilled chicken breast, white rice, brown beans and green beans"
+ },
+ {
+  "id": "m007",
+  "nome": "Frango xadrez com arroz integral",
+  "categoria": "Frango",
+  "gramas": 355,
+  "kcal": 530,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Pimentão",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Castanha de caju",
+    "quantidade": 10,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Shoyu",
+    "quantidade": 10,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Arroz integral",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m007.jpg",
+  "foto_prompt": "chinese style chicken with red and green bell peppers and cashews in glossy sauce, brown rice"
+ },
+ {
+  "id": "m008",
+  "nome": "Frango ao molho de mostarda com purê e brócolis",
+  "categoria": "Frango",
+  "gramas": 415,
+  "kcal": 388,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 145,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Mostarda",
+    "quantidade": 10,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Creme de leite light",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Batata",
+    "quantidade": 175,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Leite desnatado",
+    "quantidade": 30,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m008.jpg",
+  "foto_prompt": "chicken breast slices in creamy mustard sauce, mashed potatoes and broccoli"
+ },
+ {
+  "id": "m009",
+  "nome": "Almôndegas de frango ao sugo com macarrão integral",
+  "categoria": "Frango",
+  "gramas": 380,
+  "kcal": 487,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Farinha de rosca",
+    "quantidade": 10,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Macarrão integral",
+    "quantidade": 65,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Espinafre",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m009.jpg",
+  "foto_prompt": "chicken meatballs in tomato sauce, whole wheat penne pasta and sauteed spinach"
+ },
+ {
+  "id": "m010",
+  "nome": "Fricassê de frango com arroz e cenoura",
+  "categoria": "Frango",
+  "gramas": 410,
+  "kcal": 508,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 140,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Requeijão light",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Creme de leite light",
+    "quantidade": 20,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Milho verde em conserva",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m010.jpg",
+  "foto_prompt": "creamy chicken fricassee with corn kernels, white rice and sliced carrots"
+ },
+ {
+  "id": "m011",
+  "nome": "Sobrecoxa com quiabo e polenta mole",
+  "categoria": "Frango",
+  "gramas": 340,
+  "kcal": 492,
+  "ingredientes": [
+   {
+    "nome": "Sobrecoxa de frango sem pele",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Quiabo",
+    "quantidade": 100,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 25,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Flocão de milho",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m011.jpg",
+  "foto_prompt": "braised chicken thigh pieces with okra and soft yellow polenta"
+ },
+ {
+  "id": "m012",
+  "nome": "Frango assado com mandioca e salada de repolho",
+  "categoria": "Frango",
+  "gramas": 360,
+  "kcal": 507,
+  "ingredientes": [
+   {
+    "nome": "Sobrecoxa de frango sem pele",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Mandioca",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Repolho",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Limão",
+    "quantidade": 0.5,
+    "unidade": "un",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m012.jpg",
+  "foto_prompt": "roasted chicken thigh, boiled cassava chunks and shredded cabbage and carrot slaw"
+ },
+ {
+  "id": "m013",
+  "nome": "Frango com legumes salteados e quinoa",
+  "categoria": "Frango",
+  "gramas": 385,
+  "kcal": 464,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Abobrinha",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Pimentão",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Quinoa",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m013.jpg",
+  "foto_prompt": "diced chicken with sauteed zucchini, bell pepper and carrot, white quinoa"
+ },
+ {
+  "id": "m014",
+  "nome": "Frango à parmegiana fit com arroz e espinafre",
+  "categoria": "Frango",
+  "gramas": 400,
+  "kcal": 550,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Ovo",
+    "quantidade": 0.5,
+    "unidade": "un",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Farinha de rosca",
+    "quantidade": 15,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Muçarela light",
+    "quantidade": 25,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Espinafre",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m014.jpg",
+  "foto_prompt": "baked breaded chicken cutlet topped with tomato sauce and melted mozzarella, white rice and spinach"
+ },
+ {
+  "id": "m015",
+  "nome": "Escondidinho de frango com abóbora e brócolis",
+  "categoria": "Frango",
+  "gramas": 410,
+  "kcal": 323,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 140,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Abóbora cabotiá",
+    "quantidade": 200,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Requeijão light",
+    "quantidade": 20,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 25,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 70,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m015.jpg",
+  "foto_prompt": "shredded chicken baked under golden pumpkin puree, with broccoli florets"
+ },
+ {
+  "id": "m016",
+  "nome": "Frango com arroz de brócolis e cenoura",
+  "categoria": "Frango",
+  "gramas": 385,
+  "kcal": 444,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m016.jpg",
+  "foto_prompt": "grilled chicken strips, rice mixed with chopped broccoli and roasted carrot sticks"
+ },
+ {
+  "id": "m017",
+  "nome": "Galinhada com ervilha e cenoura",
+  "categoria": "Frango",
+  "gramas": 390,
+  "kcal": 503,
+  "ingredientes": [
+   {
+    "nome": "Sobrecoxa de frango sem pele",
+    "quantidade": 140,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 65,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Ervilha congelada",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cheiro-verde",
+    "quantidade": 5,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m017.jpg",
+  "foto_prompt": "brazilian galinhada yellow saffron rice with chicken pieces, peas, carrots and parsley"
+ },
+ {
+  "id": "m018",
+  "nome": "Frango ao limão com batata-doce e vagem",
+  "categoria": "Frango",
+  "gramas": 370,
+  "kcal": 425,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 160,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Limão",
+    "quantidade": 0.5,
+    "unidade": "un",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Batata-doce",
+    "quantidade": 170,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Vagem",
+    "quantidade": 90,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Alho",
+    "quantidade": 3,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m018.jpg",
+  "foto_prompt": "lemon garlic grilled chicken breast, roasted sweet potato wedges and green beans"
+ },
+ {
+  "id": "m019",
+  "nome": "Frango com mandioquinha e chuchu",
+  "categoria": "Frango",
+  "gramas": 370,
+  "kcal": 335,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Mandioquinha",
+    "quantidade": 160,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Chuchu",
+    "quantidade": 100,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 20,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m019.jpg",
+  "foto_prompt": "chicken stew cubes, yellow arracacha chunks and sauteed chayote"
+ },
+ {
+  "id": "m020",
+  "nome": "Frango teriyaki com arroz e legumes",
+  "categoria": "Frango",
+  "gramas": 370,
+  "kcal": 481,
+  "ingredientes": [
+   {
+    "nome": "Peito de frango",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Shoyu",
+    "quantidade": 15,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Mel",
+    "quantidade": 8,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Gergelim",
+    "quantidade": 3,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m020.jpg",
+  "foto_prompt": "teriyaki glazed chicken with sesame seeds, white rice, broccoli and carrot"
+ },
+ {
+  "id": "m021",
+  "nome": "Bife acebolado com arroz, feijão e couve",
+  "categoria": "Carnes",
+  "gramas": 405,
+  "kcal": 608,
+  "ingredientes": [
+   {
+    "nome": "Alcatra",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Feijão carioca",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Couve",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m021.jpg",
+  "foto_prompt": "pan seared beef steak topped with caramelized onions, white rice, brown beans and collard greens"
+ },
+ {
+  "id": "m022",
+  "nome": "Carne moída com batata-doce e vagem",
+  "categoria": "Carnes",
+  "gramas": 400,
+  "kcal": 391,
+  "ingredientes": [
+   {
+    "nome": "Patinho moído",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 25,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Batata-doce",
+    "quantidade": 170,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Vagem",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m022.jpg",
+  "foto_prompt": "seasoned ground beef, roasted sweet potato cubes and green beans"
+ },
+ {
+  "id": "m023",
+  "nome": "Almôndegas ao sugo com arroz e brócolis",
+  "categoria": "Carnes",
+  "gramas": 410,
+  "kcal": 494,
+  "ingredientes": [
+   {
+    "nome": "Patinho moído",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Farinha de rosca",
+    "quantidade": 10,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m023.jpg",
+  "foto_prompt": "beef meatballs in tomato sauce, white rice and broccoli florets"
+ },
+ {
+  "id": "m024",
+  "nome": "Estrogonofe de carne com arroz e cenoura",
+  "categoria": "Carnes",
+  "gramas": 420,
+  "kcal": 506,
+  "ingredientes": [
+   {
+    "nome": "Patinho em tiras",
+    "quantidade": 145,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Creme de leite light",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Cogumelo champignon",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 75,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m024.jpg",
+  "foto_prompt": "beef stroganoff strips with mushrooms, white rice and carrot slices"
+ },
+ {
+  "id": "m025",
+  "nome": "Picadinho de carne com arroz e abóbora",
+  "categoria": "Carnes",
+  "gramas": 405,
+  "kcal": 477,
+  "ingredientes": [
+   {
+    "nome": "Coxão mole",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Abóbora cabotiá",
+    "quantidade": 100,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m025.jpg",
+  "foto_prompt": "brazilian beef picadinho stew cubes, white rice and roasted pumpkin"
+ },
+ {
+  "id": "m026",
+  "nome": "Carne de panela com mandioca e couve",
+  "categoria": "Carnes",
+  "gramas": 345,
+  "kcal": 482,
+  "ingredientes": [
+   {
+    "nome": "Músculo bovino",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Mandioca",
+    "quantidade": 140,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Couve",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m026.jpg",
+  "foto_prompt": "slow cooked shredded beef pot roast with carrots, boiled cassava and collard greens"
+ },
+ {
+  "id": "m027",
+  "nome": "Escondidinho de carne moída com mandioquinha",
+  "categoria": "Carnes",
+  "gramas": 390,
+  "kcal": 396,
+  "ingredientes": [
+   {
+    "nome": "Patinho moído",
+    "quantidade": 140,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 25,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Mandioquinha",
+    "quantidade": 180,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Requeijão light",
+    "quantidade": 15,
+    "unidade": "g",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m027.jpg",
+  "foto_prompt": "ground beef baked under golden arracacha puree, with broccoli"
+ },
+ {
+  "id": "m028",
+  "nome": "Macarrão integral à bolonhesa com abobrinha",
+  "categoria": "Carnes",
+  "gramas": 410,
+  "kcal": 486,
+  "ingredientes": [
+   {
+    "nome": "Patinho moído",
+    "quantidade": 130,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 90,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Macarrão integral",
+    "quantidade": 65,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Abobrinha",
+    "quantidade": 90,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Parmesão ralado",
+    "quantidade": 8,
+    "unidade": "g",
+    "secao": "Proteínas"
+   }
+  ],
+  "imagem": "m028.jpg",
+  "foto_prompt": "whole wheat spaghetti with beef bolognese and parmesan, sauteed zucchini"
+ },
+ {
+  "id": "m029",
+  "nome": "Carne moída com quinoa e legumes",
+  "categoria": "Carnes",
+  "gramas": 365,
+  "kcal": 428,
+  "ingredientes": [
+   {
+    "nome": "Patinho moído",
+    "quantidade": 140,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Quinoa",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Pimentão",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Abobrinha",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m029.jpg",
+  "foto_prompt": "ground beef with quinoa and diced bell pepper, carrot and zucchini"
+ },
+ {
+  "id": "m030",
+  "nome": "Alcatra grelhada com purê de batata e vagem",
+  "categoria": "Carnes",
+  "gramas": 395,
+  "kcal": 417,
+  "ingredientes": [
+   {
+    "nome": "Alcatra",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Batata",
+    "quantidade": 180,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Leite desnatado",
+    "quantidade": 30,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Vagem",
+    "quantidade": 90,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m030.jpg",
+  "foto_prompt": "sliced grilled sirloin steak, creamy mashed potatoes and green beans"
+ },
+ {
+  "id": "m031",
+  "nome": "Iscas de carne com arroz integral e brócolis",
+  "categoria": "Carnes",
+  "gramas": 370,
+  "kcal": 465,
+  "ingredientes": [
+   {
+    "nome": "Patinho em tiras",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Shoyu",
+    "quantidade": 8,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Arroz integral",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 90,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m031.jpg",
+  "foto_prompt": "sauteed beef strips with onion, brown rice and broccoli"
+ },
+ {
+  "id": "m032",
+  "nome": "Ragu de músculo com polenta e espinafre",
+  "categoria": "Carnes",
+  "gramas": 325,
+  "kcal": 431,
+  "ingredientes": [
+   {
+    "nome": "Músculo bovino",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 70,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Flocão de milho",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Espinafre",
+    "quantidade": 70,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m032.jpg",
+  "foto_prompt": "shredded beef ragu in tomato sauce over soft polenta, sauteed spinach"
+ },
+ {
+  "id": "m033",
+  "nome": "Kafta grelhada com cuscuz, tomate e pepino",
+  "categoria": "Carnes",
+  "gramas": 385,
+  "kcal": 454,
+  "ingredientes": [
+   {
+    "nome": "Patinho moído",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 20,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cheiro-verde",
+    "quantidade": 5,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cuscuz marroquino",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Pepino",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m033.jpg",
+  "foto_prompt": "grilled beef kofta skewers without sticks, couscous and diced tomato cucumber salad"
+ },
+ {
+  "id": "m034",
+  "nome": "Carne moída com abóbora e arroz integral",
+  "categoria": "Carnes",
+  "gramas": 360,
+  "kcal": 436,
+  "ingredientes": [
+   {
+    "nome": "Patinho moído",
+    "quantidade": 140,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Abóbora cabotiá",
+    "quantidade": 120,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz integral",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cheiro-verde",
+    "quantidade": 5,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m034.jpg",
+  "foto_prompt": "ground beef with pumpkin cubes and parsley, brown rice"
+ },
+ {
+  "id": "m035",
+  "nome": "Bife à rolê com arroz e vagem",
+  "categoria": "Carnes",
+  "gramas": 400,
+  "kcal": 472,
+  "ingredientes": [
+   {
+    "nome": "Coxão mole",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Vagem",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m035.jpg",
+  "foto_prompt": "beef roulade slices in tomato sauce showing carrot filling, white rice and green beans"
+ },
+ {
+  "id": "m036",
+  "nome": "Alcatra em cubos com batata-doce e brócolis",
+  "categoria": "Carnes",
+  "gramas": 355,
+  "kcal": 417,
+  "ingredientes": [
+   {
+    "nome": "Alcatra",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Batata-doce",
+    "quantidade": 170,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 90,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m036.jpg",
+  "foto_prompt": "seared beef sirloin cubes, roasted sweet potato and broccoli"
+ },
+ {
+  "id": "m037",
+  "nome": "Chili de carne com arroz e feijão",
+  "categoria": "Carnes",
+  "gramas": 400,
+  "kcal": 506,
+  "ingredientes": [
+   {
+    "nome": "Patinho moído",
+    "quantidade": 130,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Feijão preto",
+    "quantidade": 35,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Pimentão",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Páprica doce",
+    "quantidade": 2,
+    "unidade": "g",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m037.jpg",
+  "foto_prompt": "beef chili with black beans and bell pepper, white rice"
+ },
+ {
+  "id": "m038",
+  "nome": "Vaca atolada light com couve",
+  "categoria": "Carnes",
+  "gramas": 345,
+  "kcal": 484,
+  "ingredientes": [
+   {
+    "nome": "Músculo bovino",
+    "quantidade": 140,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Mandioca",
+    "quantidade": 160,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 25,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Couve",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m038.jpg",
+  "foto_prompt": "brazilian beef and cassava stew in tomato broth, sauteed collard greens"
+ },
+ {
+  "id": "m039",
+  "nome": "Lombo suíno assado com batata-doce e couve",
+  "categoria": "Suínos",
+  "gramas": 320,
+  "kcal": 396,
+  "ingredientes": [
+   {
+    "nome": "Lombo suíno",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Batata-doce",
+    "quantidade": 170,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Couve",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Alho",
+    "quantidade": 3,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Limão",
+    "quantidade": 0.5,
+    "unidade": "un",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m039.jpg",
+  "foto_prompt": "sliced roasted pork loin, sweet potato cubes and collard greens"
+ },
+ {
+  "id": "m040",
+  "nome": "Pernil desfiado com arroz, feijão e couve",
+  "categoria": "Suínos",
+  "gramas": 360,
+  "kcal": 546,
+  "ingredientes": [
+   {
+    "nome": "Pernil suíno",
+    "quantidade": 140,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Feijão preto",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Couve",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 20,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m040.jpg",
+  "foto_prompt": "pulled pork, white rice, black beans and collard greens"
+ },
+ {
+  "id": "m041",
+  "nome": "Filé mignon suíno ao molho de mostarda com purê e vagem",
+  "categoria": "Suínos",
+  "gramas": 380,
+  "kcal": 386,
+  "ingredientes": [
+   {
+    "nome": "Filé mignon suíno",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Mostarda",
+    "quantidade": 10,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Creme de leite light",
+    "quantidade": 25,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Batata",
+    "quantidade": 170,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Vagem",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m041.jpg",
+  "foto_prompt": "pork tenderloin medallions in mustard cream sauce, mashed potatoes and green beans"
+ },
+ {
+  "id": "m042",
+  "nome": "Almôndegas suínas ao sugo com macarrão integral",
+  "categoria": "Suínos",
+  "gramas": 355,
+  "kcal": 550,
+  "ingredientes": [
+   {
+    "nome": "Carne suína moída",
+    "quantidade": 130,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Farinha de rosca",
+    "quantidade": 10,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Macarrão integral",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Espinafre",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m042.jpg",
+  "foto_prompt": "pork meatballs in tomato sauce, whole wheat fusilli and spinach"
+ },
+ {
+  "id": "m043",
+  "nome": "Bisteca grelhada com arroz e abobrinha",
+  "categoria": "Suínos",
+  "gramas": 345,
+  "kcal": 504,
+  "ingredientes": [
+   {
+    "nome": "Bisteca suína",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Abobrinha",
+    "quantidade": 100,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Alho",
+    "quantidade": 3,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m043.jpg",
+  "foto_prompt": "grilled pork chop, white rice and grilled zucchini slices"
+ },
+ {
+  "id": "m044",
+  "nome": "Lombo acebolado com mandioca e repolho",
+  "categoria": "Suínos",
+  "gramas": 355,
+  "kcal": 482,
+  "ingredientes": [
+   {
+    "nome": "Lombo suíno",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Mandioca",
+    "quantidade": 140,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Repolho",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m044.jpg",
+  "foto_prompt": "pork loin slices with sauteed onions, boiled cassava and braised cabbage"
+ },
+ {
+  "id": "m045",
+  "nome": "Pernil com abóbora e arroz integral",
+  "categoria": "Suínos",
+  "gramas": 355,
+  "kcal": 486,
+  "ingredientes": [
+   {
+    "nome": "Pernil suíno",
+    "quantidade": 140,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Abóbora cabotiá",
+    "quantidade": 120,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz integral",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cheiro-verde",
+    "quantidade": 5,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m045.jpg",
+  "foto_prompt": "roasted pork leg pieces, pumpkin cubes and brown rice"
+ },
+ {
+  "id": "m046",
+  "nome": "Escondidinho de pernil com mandioca e brócolis",
+  "categoria": "Suínos",
+  "gramas": 340,
+  "kcal": 544,
+  "ingredientes": [
+   {
+    "nome": "Pernil suíno",
+    "quantidade": 130,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Mandioca",
+    "quantidade": 170,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Requeijão light",
+    "quantidade": 15,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 70,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m046.jpg",
+  "foto_prompt": "pulled pork baked under golden cassava puree, with broccoli"
+ },
+ {
+  "id": "m047",
+  "nome": "Filé mignon suíno com quinoa e legumes",
+  "categoria": "Suínos",
+  "gramas": 375,
+  "kcal": 435,
+  "ingredientes": [
+   {
+    "nome": "Filé mignon suíno",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Quinoa",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Abobrinha",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Pimentão",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m047.jpg",
+  "foto_prompt": "sliced pork tenderloin, quinoa and sauteed carrot, zucchini and bell pepper"
+ },
+ {
+  "id": "m048",
+  "nome": "Lombo ao molho de laranja com arroz e brócolis",
+  "categoria": "Suínos",
+  "gramas": 335,
+  "kcal": 476,
+  "ingredientes": [
+   {
+    "nome": "Lombo suíno",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Laranja",
+    "quantidade": 0.5,
+    "unidade": "un",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 90,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m048.jpg",
+  "foto_prompt": "pork loin slices in orange glaze, white rice and broccoli"
+ },
+ {
+  "id": "m049",
+  "nome": "Feijoada light com arroz e couve",
+  "categoria": "Suínos",
+  "gramas": 350,
+  "kcal": 536,
+  "ingredientes": [
+   {
+    "nome": "Lombo suíno",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Linguiça toscana",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Feijão preto",
+    "quantidade": 45,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 45,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Couve",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m049.jpg",
+  "foto_prompt": "light brazilian feijoada black bean stew with pork pieces, white rice and collard greens"
+ },
+ {
+  "id": "m050",
+  "nome": "Linguiça toscana com purê de abóbora e vagem",
+  "categoria": "Suínos",
+  "gramas": 325,
+  "kcal": 366,
+  "ingredientes": [
+   {
+    "nome": "Linguiça toscana",
+    "quantidade": 90,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Abóbora cabotiá",
+    "quantidade": 200,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Vagem",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m050.jpg",
+  "foto_prompt": "grilled sausage slices, pumpkin puree and green beans"
+ },
+ {
+  "id": "m051",
+  "nome": "Lombo em cubos com tutu de feijão e couve",
+  "categoria": "Suínos",
+  "gramas": 305,
+  "kcal": 456,
+  "ingredientes": [
+   {
+    "nome": "Lombo suíno",
+    "quantidade": 155,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Feijão carioca",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Farinha de mandioca",
+    "quantidade": 10,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Couve",
+    "quantidade": 85,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m051.jpg",
+  "foto_prompt": "pork loin cubes, creamy brazilian tutu bean puree and collard greens"
+ },
+ {
+  "id": "m052",
+  "nome": "Carne suína moída com batata e cenoura",
+  "categoria": "Suínos",
+  "gramas": 340,
+  "kcal": 414,
+  "ingredientes": [
+   {
+    "nome": "Carne suína moída",
+    "quantidade": 130,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Batata",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m052.jpg",
+  "foto_prompt": "ground pork in tomato sauce, boiled potato cubes and carrots"
+ },
+ {
+  "id": "m053",
+  "nome": "Filé suíno grelhado com batata-doce e chuchu",
+  "categoria": "Suínos",
+  "gramas": 355,
+  "kcal": 352,
+  "ingredientes": [
+   {
+    "nome": "Filé mignon suíno",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Batata-doce",
+    "quantidade": 160,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Chuchu",
+    "quantidade": 100,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m053.jpg",
+  "foto_prompt": "grilled pork tenderloin slices, roasted sweet potato and sauteed chayote"
+ },
+ {
+  "id": "m054",
+  "nome": "Moqueca de peixe com arroz",
+  "categoria": "Peixes",
+  "gramas": 425,
+  "kcal": 460,
+  "ingredientes": [
+   {
+    "nome": "Filé de tilápia",
+    "quantidade": 165,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Leite de coco",
+    "quantidade": 40,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Pimentão",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cheiro-verde",
+    "quantidade": 5,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m054.jpg",
+  "foto_prompt": "brazilian fish moqueca stew with coconut milk, peppers and tomatoes, white rice"
+ },
+ {
+  "id": "m055",
+  "nome": "Tilápia grelhada com arroz integral e brócolis",
+  "categoria": "Peixes",
+  "gramas": 385,
+  "kcal": 467,
+  "ingredientes": [
+   {
+    "nome": "Filé de tilápia",
+    "quantidade": 170,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Arroz integral",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 100,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Limão",
+    "quantidade": 0.5,
+    "unidade": "un",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m055.jpg",
+  "foto_prompt": "grilled tilapia fillet with lemon slice, brown rice and broccoli"
+ },
+ {
+  "id": "m056",
+  "nome": "Salmão ao mel e mostarda com batata-doce e vagem",
+  "categoria": "Peixes",
+  "gramas": 335,
+  "kcal": 456,
+  "ingredientes": [
+   {
+    "nome": "Filé de salmão",
+    "quantidade": 130,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Mel",
+    "quantidade": 8,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Mostarda",
+    "quantidade": 8,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Batata-doce",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Vagem",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m056.jpg",
+  "foto_prompt": "honey mustard glazed salmon fillet, sweet potato cubes and green beans"
+ },
+ {
+  "id": "m057",
+  "nome": "Salmão grelhado com quinoa e abobrinha",
+  "categoria": "Peixes",
+  "gramas": 325,
+  "kcal": 485,
+  "ingredientes": [
+   {
+    "nome": "Filé de salmão",
+    "quantidade": 130,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Quinoa",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Abobrinha",
+    "quantidade": 100,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Limão",
+    "quantidade": 0.5,
+    "unidade": "un",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m057.jpg",
+  "foto_prompt": "grilled salmon fillet, quinoa and grilled zucchini"
+ },
+ {
+  "id": "m058",
+  "nome": "Merluza ao molho de tomate com purê e espinafre",
+  "categoria": "Peixes",
+  "gramas": 395,
+  "kcal": 322,
+  "ingredientes": [
+   {
+    "nome": "Filé de merluza",
+    "quantidade": 170,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 70,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Batata",
+    "quantidade": 170,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Espinafre",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m058.jpg",
+  "foto_prompt": "white hake fillet in tomato sauce, mashed potatoes and spinach"
+ },
+ {
+  "id": "m059",
+  "nome": "Peixe empanado no forno com arroz e cenoura",
+  "categoria": "Peixes",
+  "gramas": 380,
+  "kcal": 466,
+  "ingredientes": [
+   {
+    "nome": "Filé de pescada",
+    "quantidade": 160,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Farinha de rosca",
+    "quantidade": 15,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Ovo",
+    "quantidade": 0.3,
+    "unidade": "un",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 90,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m059.jpg",
+  "foto_prompt": "oven baked breaded white fish fillet, white rice and carrot sticks"
+ },
+ {
+  "id": "m060",
+  "nome": "Atum com macarrão integral e brócolis",
+  "categoria": "Peixes",
+  "gramas": 375,
+  "kcal": 377,
+  "ingredientes": [
+   {
+    "nome": "Atum em lata (em água)",
+    "quantidade": 100,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Macarrão integral",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 90,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m060.jpg",
+  "foto_prompt": "whole wheat penne with tuna in tomato sauce, broccoli"
+ },
+ {
+  "id": "m061",
+  "nome": "Atum com arroz integral, ervilha e cenoura",
+  "categoria": "Peixes",
+  "gramas": 360,
+  "kcal": 396,
+  "ingredientes": [
+   {
+    "nome": "Atum em lata (em água)",
+    "quantidade": 100,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Arroz integral",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Ervilha congelada",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m061.jpg",
+  "foto_prompt": "flaked tuna, brown rice with green peas and diced carrots"
+ },
+ {
+  "id": "m062",
+  "nome": "Camarão ao alho com arroz e abobrinha",
+  "categoria": "Peixes",
+  "gramas": 370,
+  "kcal": 412,
+  "ingredientes": [
+   {
+    "nome": "Camarão limpo",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Alho",
+    "quantidade": 5,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Abobrinha",
+    "quantidade": 100,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m062.jpg",
+  "foto_prompt": "garlic shrimp, white rice and sauteed zucchini"
+ },
+ {
+  "id": "m063",
+  "nome": "Bobó de camarão light com arroz",
+  "categoria": "Peixes",
+  "gramas": 395,
+  "kcal": 487,
+  "ingredientes": [
+   {
+    "nome": "Camarão limpo",
+    "quantidade": 140,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Mandioca",
+    "quantidade": 100,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Leite de coco",
+    "quantidade": 30,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Pimentão",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Grãos"
+   }
+  ],
+  "imagem": "m063.jpg",
+  "foto_prompt": "light brazilian shrimp bobo creamy cassava stew, white rice"
+ },
+ {
+  "id": "m064",
+  "nome": "Tilápia ao forno com mandioquinha e chuchu",
+  "categoria": "Peixes",
+  "gramas": 380,
+  "kcal": 310,
+  "ingredientes": [
+   {
+    "nome": "Filé de tilápia",
+    "quantidade": 170,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Mandioquinha",
+    "quantidade": 160,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Chuchu",
+    "quantidade": 100,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m064.jpg",
+  "foto_prompt": "baked tilapia fillet with herbs, arracacha chunks and chayote"
+ },
+ {
+  "id": "m065",
+  "nome": "Pescada ao limão com arroz, feijão e couve",
+  "categoria": "Peixes",
+  "gramas": 380,
+  "kcal": 472,
+  "ingredientes": [
+   {
+    "nome": "Filé de pescada",
+    "quantidade": 170,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Limão",
+    "quantidade": 0.5,
+    "unidade": "un",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Feijão carioca",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Couve",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m065.jpg",
+  "foto_prompt": "lemon white fish fillet, white rice, brown beans and collard greens"
+ },
+ {
+  "id": "m066",
+  "nome": "Peixe ensopado com batata e cenoura",
+  "categoria": "Peixes",
+  "gramas": 380,
+  "kcal": 307,
+  "ingredientes": [
+   {
+    "nome": "Filé de pescada",
+    "quantidade": 160,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Batata",
+    "quantidade": 140,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 70,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 25,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cheiro-verde",
+    "quantidade": 5,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m066.jpg",
+  "foto_prompt": "brazilian fish stew chunks with potatoes, carrots and tomato broth"
+ },
+ {
+  "id": "m067",
+  "nome": "Sardinha assada com batata-doce e tomate",
+  "categoria": "Peixes",
+  "gramas": 335,
+  "kcal": 357,
+  "ingredientes": [
+   {
+    "nome": "Sardinha fresca",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Batata-doce",
+    "quantidade": 160,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 15,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m067.jpg",
+  "foto_prompt": "roasted whole sardines, sweet potato and fresh tomato onion salad"
+ },
+ {
+  "id": "m068",
+  "nome": "Salmão com arroz integral e brócolis ao gergelim",
+  "categoria": "Peixes",
+  "gramas": 330,
+  "kcal": 528,
+  "ingredientes": [
+   {
+    "nome": "Filé de salmão",
+    "quantidade": 130,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Arroz integral",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 90,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Gergelim",
+    "quantidade": 4,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Shoyu",
+    "quantidade": 8,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m068.jpg",
+  "foto_prompt": "sesame salmon cubes, brown rice and broccoli"
+ },
+ {
+  "id": "m069",
+  "nome": "Tilápia ao curry com cuscuz e cenoura",
+  "categoria": "Peixes",
+  "gramas": 380,
+  "kcal": 469,
+  "ingredientes": [
+   {
+    "nome": "Filé de tilápia",
+    "quantidade": 170,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Curry em pó",
+    "quantidade": 3,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Leite de coco",
+    "quantidade": 30,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Cuscuz marroquino",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m069.jpg",
+  "foto_prompt": "yellow tilapia curry chunks, couscous and carrots"
+ },
+ {
+  "id": "m070",
+  "nome": "Omelete de espinafre e queijo com batata-doce",
+  "categoria": "Vegetarianas",
+  "gramas": 410,
+  "kcal": 454,
+  "ingredientes": [
+   {
+    "nome": "Ovo",
+    "quantidade": 3,
+    "unidade": "un",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Espinafre",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Queijo minas frescal",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Batata-doce",
+    "quantidade": 160,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m070.jpg",
+  "foto_prompt": "folded spinach and white cheese omelette, roasted sweet potato and cherry tomatoes"
+ },
+ {
+  "id": "m071",
+  "nome": "Omelete de legumes com arroz integral e cenoura",
+  "categoria": "Vegetarianas",
+  "gramas": 415,
+  "kcal": 440,
+  "ingredientes": [
+   {
+    "nome": "Ovo",
+    "quantidade": 3,
+    "unidade": "un",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Abobrinha",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 20,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz integral",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m071.jpg",
+  "foto_prompt": "vegetable omelette slices, brown rice and carrot sticks"
+ },
+ {
+  "id": "m072",
+  "nome": "Berinjela à parmegiana com arroz integral",
+  "categoria": "Vegetarianas",
+  "gramas": 415,
+  "kcal": 418,
+  "ingredientes": [
+   {
+    "nome": "Berinjela",
+    "quantidade": 180,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Ovo",
+    "quantidade": 0.5,
+    "unidade": "un",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Farinha de rosca",
+    "quantidade": 15,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 70,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Muçarela light",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Arroz integral",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   }
+  ],
+  "imagem": "m072.jpg",
+  "foto_prompt": "eggplant parmigiana with tomato sauce and melted mozzarella, brown rice"
+ },
+ {
+  "id": "m073",
+  "nome": "Escondidinho de lentilha com purê de batata",
+  "categoria": "Vegetarianas",
+  "gramas": 390,
+  "kcal": 382,
+  "ingredientes": [
+   {
+    "nome": "Lentilha",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Batata",
+    "quantidade": 180,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Parmesão ralado",
+    "quantidade": 8,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Leite desnatado",
+    "quantidade": 20,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m073.jpg",
+  "foto_prompt": "lentil stew baked under mashed potato topping with parmesan crust"
+ },
+ {
+  "id": "m074",
+  "nome": "Grão-de-bico ao curry com arroz e espinafre",
+  "categoria": "Vegetarianas",
+  "gramas": 365,
+  "kcal": 421,
+  "ingredientes": [
+   {
+    "nome": "Grão-de-bico",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Curry em pó",
+    "quantidade": 3,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Iogurte natural",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Espinafre",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m074.jpg",
+  "foto_prompt": "chickpea curry with yogurt sauce, white rice and spinach"
+ },
+ {
+  "id": "m075",
+  "nome": "Fritada de abobrinha com quinoa e tomate",
+  "categoria": "Vegetarianas",
+  "gramas": 410,
+  "kcal": 487,
+  "ingredientes": [
+   {
+    "nome": "Ovo",
+    "quantidade": 3,
+    "unidade": "un",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Abobrinha",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Queijo minas frescal",
+    "quantidade": 25,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Quinoa",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m075.jpg",
+  "foto_prompt": "zucchini frittata wedges, quinoa and tomato slices"
+ },
+ {
+  "id": "m076",
+  "nome": "Macarrão integral ao sugo com ricota e espinafre",
+  "categoria": "Vegetarianas",
+  "gramas": 335,
+  "kcal": 373,
+  "ingredientes": [
+   {
+    "nome": "Macarrão integral",
+    "quantidade": 70,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Ricota",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Espinafre",
+    "quantidade": 70,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m076.jpg",
+  "foto_prompt": "whole wheat penne in tomato sauce with crumbled ricotta and spinach"
+ },
+ {
+  "id": "m077",
+  "nome": "Ovos mexidos com arroz, feijão e couve",
+  "categoria": "Vegetarianas",
+  "gramas": 355,
+  "kcal": 461,
+  "ingredientes": [
+   {
+    "nome": "Ovo",
+    "quantidade": 2,
+    "unidade": "un",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Feijão carioca",
+    "quantidade": 35,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Couve",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m077.jpg",
+  "foto_prompt": "scrambled eggs, white rice, brown beans and collard greens"
+ },
+ {
+  "id": "m078",
+  "nome": "Abóbora recheada com ricota, arroz e espinafre",
+  "categoria": "Vegetarianas",
+  "gramas": 405,
+  "kcal": 365,
+  "ingredientes": [
+   {
+    "nome": "Abóbora cabotiá",
+    "quantidade": 200,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Ricota",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 45,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Espinafre",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cheiro-verde",
+    "quantidade": 5,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m078.jpg",
+  "foto_prompt": "roasted pumpkin chunks with herbed ricotta, white rice and spinach"
+ },
+ {
+  "id": "m079",
+  "nome": "Panqueca de aveia com espinafre e queijo",
+  "categoria": "Vegetarianas",
+  "gramas": 290,
+  "kcal": 386,
+  "ingredientes": [
+   {
+    "nome": "Ovo",
+    "quantidade": 1,
+    "unidade": "un",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Aveia em flocos",
+    "quantidade": 35,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Leite desnatado",
+    "quantidade": 60,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Espinafre",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Queijo minas frescal",
+    "quantidade": 45,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m079.jpg",
+  "foto_prompt": "rolled oat crepes filled with spinach and cheese, topped with tomato sauce"
+ },
+ {
+  "id": "m080",
+  "nome": "Hambúrguer de grão-de-bico com batata e salada",
+  "categoria": "Vegetarianas",
+  "gramas": 370,
+  "kcal": 384,
+  "ingredientes": [
+   {
+    "nome": "Grão-de-bico",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Ovo",
+    "quantidade": 0.5,
+    "unidade": "un",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Aveia em flocos",
+    "quantidade": 10,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Batata",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Alface",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m080.jpg",
+  "foto_prompt": "chickpea patties, roasted potato wedges and lettuce tomato salad"
+ },
+ {
+  "id": "m081",
+  "nome": "Risoto de cogumelos com ovo e brócolis",
+  "categoria": "Vegetarianas",
+  "gramas": 375,
+  "kcal": 426,
+  "ingredientes": [
+   {
+    "nome": "Arroz branco",
+    "quantidade": 65,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cogumelo champignon",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Parmesão ralado",
+    "quantidade": 15,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Ovo",
+    "quantidade": 1,
+    "unidade": "un",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 20,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m081.jpg",
+  "foto_prompt": "creamy mushroom risotto, soft boiled egg halves and broccoli"
+ },
+ {
+  "id": "m082",
+  "nome": "Feijoada vegetariana com arroz e couve",
+  "categoria": "Vegetarianas",
+  "gramas": 410,
+  "kcal": 433,
+  "ingredientes": [
+   {
+    "nome": "Feijão preto",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Abóbora cabotiá",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 20,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Couve",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m082.jpg",
+  "foto_prompt": "vegetarian black bean feijoada with pumpkin and carrot, white rice and collard greens"
+ },
+ {
+  "id": "m083",
+  "nome": "Polenta com ragu de lentilha e queijo",
+  "categoria": "Vegetarianas",
+  "gramas": 335,
+  "kcal": 448,
+  "ingredientes": [
+   {
+    "nome": "Flocão de milho",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Lentilha",
+    "quantidade": 45,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Queijo minas frescal",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Espinafre",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m083.jpg",
+  "foto_prompt": "soft polenta topped with lentil ragu and white cheese cubes, spinach"
+ },
+ {
+  "id": "m084",
+  "nome": "Cuscuz nordestino com ovo e legumes",
+  "categoria": "Vegetarianas",
+  "gramas": 325,
+  "kcal": 393,
+  "ingredientes": [
+   {
+    "nome": "Flocão de milho",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Ovo",
+    "quantidade": 2,
+    "unidade": "un",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 20,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cheiro-verde",
+    "quantidade": 5,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m084.jpg",
+  "foto_prompt": "brazilian corn couscous with fried eggs and sauteed tomato and carrot"
+ },
+ {
+  "id": "m085",
+  "nome": "Estrogonofe de grão-de-bico e cogumelos com arroz",
+  "categoria": "Vegetarianas",
+  "gramas": 420,
+  "kcal": 432,
+  "ingredientes": [
+   {
+    "nome": "Grão-de-bico",
+    "quantidade": 45,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cogumelo champignon",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Creme de leite light",
+    "quantidade": 35,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Vagem",
+    "quantidade": 70,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m085.jpg",
+  "foto_prompt": "chickpea and mushroom stroganoff, white rice and green beans"
+ },
+ {
+  "id": "m086",
+  "nome": "Grão-de-bico temperado com arroz integral e brócolis",
+  "categoria": "Veganas",
+  "gramas": 410,
+  "kcal": 468,
+  "ingredientes": [
+   {
+    "nome": "Grão-de-bico",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Pimentão",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz integral",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 90,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m086.jpg",
+  "foto_prompt": "seasoned chickpeas with tomato and red pepper, brown rice and broccoli"
+ },
+ {
+  "id": "m087",
+  "nome": "Grão-de-bico ao curry com abóbora e vagem",
+  "categoria": "Veganas",
+  "gramas": 325,
+  "kcal": 329,
+  "ingredientes": [
+   {
+    "nome": "Grão-de-bico",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Curry em pó",
+    "quantidade": 3,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Leite de coco",
+    "quantidade": 30,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Abóbora cabotiá",
+    "quantidade": 100,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Vagem",
+    "quantidade": 70,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m087.jpg",
+  "foto_prompt": "chickpea curry with pumpkin cubes and green beans"
+ },
+ {
+  "id": "m088",
+  "nome": "Grão-de-bico assado com cuscuz e cenoura",
+  "categoria": "Veganas",
+  "gramas": 360,
+  "kcal": 486,
+  "ingredientes": [
+   {
+    "nome": "Grão-de-bico",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Páprica doce",
+    "quantidade": 2,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Cuscuz marroquino",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 100,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m088.jpg",
+  "foto_prompt": "crispy roasted paprika chickpeas, couscous and roasted carrot slices"
+ },
+ {
+  "id": "m089",
+  "nome": "Lentilha com ervas, arroz integral e brócolis",
+  "categoria": "Veganas",
+  "gramas": 360,
+  "kcal": 413,
+  "ingredientes": [
+   {
+    "nome": "Lentilha",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cheiro-verde",
+    "quantidade": 5,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz integral",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 90,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 20,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m089.jpg",
+  "foto_prompt": "herbed brown lentils, brown rice and broccoli"
+ },
+ {
+  "id": "m090",
+  "nome": "Bolonhesa de lentilha com macarrão integral",
+  "categoria": "Veganas",
+  "gramas": 410,
+  "kcal": 438,
+  "ingredientes": [
+   {
+    "nome": "Lentilha",
+    "quantidade": 45,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Macarrão integral",
+    "quantidade": 65,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Abobrinha",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m090.jpg",
+  "foto_prompt": "whole wheat spaghetti with lentil bolognese, zucchini and carrot"
+ },
+ {
+  "id": "m091",
+  "nome": "Tofu grelhado com arroz e legumes salteados",
+  "categoria": "Veganas",
+  "gramas": 395,
+  "kcal": 396,
+  "ingredientes": [
+   {
+    "nome": "Tofu firme",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Shoyu",
+    "quantidade": 10,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 55,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Brócolis",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Gergelim",
+    "quantidade": 3,
+    "unidade": "g",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m091.jpg",
+  "foto_prompt": "grilled tofu slices with sesame, white rice, broccoli and carrot"
+ },
+ {
+  "id": "m092",
+  "nome": "Tofu mexido com batata-doce e couve",
+  "categoria": "Veganas",
+  "gramas": 380,
+  "kcal": 298,
+  "ingredientes": [
+   {
+    "nome": "Tofu firme",
+    "quantidade": 150,
+    "unidade": "g",
+    "secao": "Proteínas"
+   },
+   {
+    "nome": "Curry em pó",
+    "quantidade": 2,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Batata-doce",
+    "quantidade": 160,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Couve",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m092.jpg",
+  "foto_prompt": "turmeric tofu scramble with tomato, roasted sweet potato and collard greens"
+ },
+ {
+  "id": "m093",
+  "nome": "Feijoada vegana com arroz e couve",
+  "categoria": "Veganas",
+  "gramas": 415,
+  "kcal": 443,
+  "ingredientes": [
+   {
+    "nome": "Feijão preto",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Abóbora cabotiá",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cogumelo champignon",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Couve",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m093.jpg",
+  "foto_prompt": "vegan black bean feijoada with mushrooms and pumpkin, white rice and collard greens"
+ },
+ {
+  "id": "m094",
+  "nome": "Estrogonofe vegano de cogumelos com arroz e cenoura",
+  "categoria": "Veganas",
+  "gramas": 425,
+  "kcal": 466,
+  "ingredientes": [
+   {
+    "nome": "Cogumelo champignon",
+    "quantidade": 95,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Grão-de-bico",
+    "quantidade": 45,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Leite de coco",
+    "quantidade": 40,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m094.jpg",
+  "foto_prompt": "vegan mushroom and chickpea stroganoff with coconut cream, white rice and carrots"
+ },
+ {
+  "id": "m095",
+  "nome": "Soja acebolada com arroz, feijão e couve",
+  "categoria": "Veganas",
+  "gramas": 385,
+  "kcal": 496,
+  "ingredientes": [
+   {
+    "nome": "Proteína de soja texturizada",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Cebola",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Feijão carioca",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Couve",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m095.jpg",
+  "foto_prompt": "textured soy protein with sauteed onions, white rice, brown beans and collard greens"
+ },
+ {
+  "id": "m096",
+  "nome": "Moqueca de banana-da-terra e grão-de-bico com arroz",
+  "categoria": "Veganas",
+  "gramas": 395,
+  "kcal": 489,
+  "ingredientes": [
+   {
+    "nome": "Banana-da-terra",
+    "quantidade": 120,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Grão-de-bico",
+    "quantidade": 35,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Leite de coco",
+    "quantidade": 35,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Pimentão",
+    "quantidade": 35,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 35,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Arroz branco",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Grãos"
+   }
+  ],
+  "imagem": "m096.jpg",
+  "foto_prompt": "plantain and chickpea moqueca with coconut milk and peppers, white rice"
+ },
+ {
+  "id": "m097",
+  "nome": "Hambúrguer de feijão com batata-doce e salada",
+  "categoria": "Veganas",
+  "gramas": 360,
+  "kcal": 380,
+  "ingredientes": [
+   {
+    "nome": "Feijão preto",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Aveia em flocos",
+    "quantidade": 15,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Batata-doce",
+    "quantidade": 160,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Alface",
+    "quantidade": 30,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m097.jpg",
+  "foto_prompt": "black bean patties, roasted sweet potato and lettuce tomato salad"
+ },
+ {
+  "id": "m098",
+  "nome": "Bowl de quinoa com feijão preto, milho e pimentão",
+  "categoria": "Veganas",
+  "gramas": 350,
+  "kcal": 383,
+  "ingredientes": [
+   {
+    "nome": "Quinoa",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Feijão preto",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Milho verde em conserva",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Pimentão",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Limão",
+    "quantidade": 0.5,
+    "unidade": "un",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m098.jpg",
+  "foto_prompt": "quinoa with black beans, corn, diced bell pepper and tomato"
+ },
+ {
+  "id": "m099",
+  "nome": "Escondidinho vegano de lentilha com mandioca",
+  "categoria": "Veganas",
+  "gramas": 365,
+  "kcal": 515,
+  "ingredientes": [
+   {
+    "nome": "Lentilha",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Tomate",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Mandioca",
+    "quantidade": 170,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Cenoura",
+    "quantidade": 40,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Azeite de oliva",
+    "quantidade": 5,
+    "unidade": "ml",
+    "secao": "Mercearia"
+   }
+  ],
+  "imagem": "m099.jpg",
+  "foto_prompt": "lentil stew baked under golden cassava puree"
+ },
+ {
+  "id": "m100",
+  "nome": "Almôndegas de soja ao sugo com macarrão integral",
+  "categoria": "Veganas",
+  "gramas": 345,
+  "kcal": 406,
+  "ingredientes": [
+   {
+    "nome": "Proteína de soja texturizada",
+    "quantidade": 35,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Aveia em flocos",
+    "quantidade": 10,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Molho de tomate",
+    "quantidade": 80,
+    "unidade": "g",
+    "secao": "Mercearia"
+   },
+   {
+    "nome": "Macarrão integral",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Espinafre",
+    "quantidade": 60,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m100.jpg",
+  "foto_prompt": "vegan soy meatballs in tomato sauce, whole wheat penne and spinach"
+ },
+ {
+  "id": "m101",
+  "nome": "Grão-de-bico com espinafre, quinoa e abóbora",
+  "categoria": "Veganas",
+  "gramas": 365,
+  "kcal": 399,
+  "ingredientes": [
+   {
+    "nome": "Grão-de-bico",
+    "quantidade": 50,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Espinafre",
+    "quantidade": 70,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   },
+   {
+    "nome": "Quinoa",
+    "quantidade": 45,
+    "unidade": "g",
+    "secao": "Grãos"
+   },
+   {
+    "nome": "Abóbora cabotiá",
+    "quantidade": 90,
+    "unidade": "g",
+    "secao": "Hortifruti"
+   }
+  ],
+  "imagem": "m101.jpg",
+  "foto_prompt": "chickpeas with wilted spinach, quinoa and roasted pumpkin"
+ }
+]
