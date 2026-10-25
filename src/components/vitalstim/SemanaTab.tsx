@@ -23,10 +23,10 @@ export function SemanaTab({ planner, hoje }: { planner: Planner; hoje: Date }) {
   const [ativo, setAtivo] = useState<string>(() => {
     const iso = isoDate(hoje);
     const semana = diasDaSemana(hoje, false).map(isoDate);
-    return semana.includes(iso) ? iso : semana[0];
+    return semana.includes(iso) ? iso : semana[0]!;
   });
-  const ativoValido = datas.includes(ativo) ? ativo : datas[0];
-  const dataAtiva = dias[datas.indexOf(ativoValido)];
+  const ativoValido = datas.includes(ativo) ? ativo : datas[0]!;
+  const dataAtiva = dias[datas.indexOf(ativoValido)]!;
   const diaPlano = planner.plano[ativoValido] ?? diaVazio();
   const total = contarMarmitas(planner.plano, datas);
 
@@ -77,8 +77,8 @@ export function SemanaTab({ planner, hoje }: { planner: Planner; hoje: Date }) {
           </button>
         </div>
         <div className="no-scrollbar -mx-5 flex gap-2 overflow-x-auto px-5 pb-1">
-          {dias.map((d, i) => {
-            const iso = datas[i];
+          {dias.map((d) => {
+            const iso = isoDate(d);
             const sel = iso === ativoValido;
             const temAlgo = !!(planner.plano[iso]?.almoco.marmitaId || planner.plano[iso]?.jantar.marmitaId);
             return (
