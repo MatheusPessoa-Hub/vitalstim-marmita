@@ -2,8 +2,8 @@ import { imagemDe, type Marmita } from "@/lib/marmitas";
 
 interface Props {
   marmita: Marmita;
-  onEscolher?: (m: Marmita) => void;
-  rotuloBotao?: string;
+  onEscolher?: ((m: Marmita) => void) | undefined;
+  rotuloBotao?: string | undefined;
 }
 
 export function MarmitaCard({ marmita, onEscolher, rotuloBotao = "Escolher este prato" }: Props) {

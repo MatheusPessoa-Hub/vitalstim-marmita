@@ -5,8 +5,8 @@ import { cn } from "@/lib/utils";
 import { MarmitaCard } from "./MarmitaCard";
 
 interface Props {
-  onEscolher?: (m: Marmita) => void;
-  rotuloBotao?: string;
+  onEscolher?: ((m: Marmita) => void) | undefined;
+  rotuloBotao?: string | undefined;
 }
 
 export function CatalogoMarmitas({ onEscolher, rotuloBotao }: Props) {
