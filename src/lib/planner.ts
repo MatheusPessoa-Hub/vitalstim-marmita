@@ -34,7 +34,7 @@ export function isoDate(d: Date) {
 }
 
 export function fromIso(iso: string) {
-  const [y, m, d] = iso.split("-").map(Number);
+  const [y = 1970, m = 1, d = 1] = iso.split("-").map(Number);
   return new Date(y, m - 1, d);
 }
 

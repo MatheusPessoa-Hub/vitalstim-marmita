@@ -77,8 +77,8 @@ export function SemanaTab({ planner, hoje }: { planner: Planner; hoje: Date }) {
           </button>
         </div>
         <div className="no-scrollbar -mx-5 flex gap-2 overflow-x-auto px-5 pb-1">
-          {dias.map((d, i) => {
-            const iso = datas[i];
+          {dias.map((d) => {
+            const iso = isoDate(d);
             const sel = iso === ativoValido;
             const temAlgo = !!(planner.plano[iso]?.almoco.marmitaId || planner.plano[iso]?.jantar.marmitaId);
             return (

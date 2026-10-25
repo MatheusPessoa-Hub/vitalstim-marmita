@@ -1,0 +1,14 @@
+{
+  "name": "VitalStim · Planejador de marmitas",
+  "short_name": "VitalStim",
+  "start_url": "/app",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F7F5F0",
+  "theme_color": "#264D3F",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
