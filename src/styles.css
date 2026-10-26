@@ -81,7 +81,6 @@
   --border: oklch(0.910 0.011 89.7);
   --input: oklch(0.910 0.011 89.7);
   --ring: oklch(0.387 0.051 168.2);
-  /* Purchase bubbles on the sales page: a color used nowhere else on the site */
   /* Buy bubbles only: a hue used nowhere else on the site. */
   --bubble: oklch(0.68 0.2 38);
   --bubble-foreground: oklch(1 0 0);
