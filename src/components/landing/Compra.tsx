@@ -87,7 +87,7 @@ export function BolhasCompra() {
       <LinkCompra
         ariaLabel="Comprar agora, sem mensalidade"
         className={cn(
-          "animate-bubble fixed left-3 top-1/2 z-50 flex size-[64px] -translate-y-1/2 flex-col items-center justify-center rounded-full bg-bubble text-center text-bubble-foreground transition-all duration-300 md:left-6 md:size-[76px]",
+          "animate-bubble fixed bottom-28 left-4 z-50 flex size-[64px] flex-col items-center justify-center rounded-full bg-bubble text-center text-bubble-foreground transition-all duration-300 md:bottom-auto md:left-6 md:top-1/2 md:size-[76px] md:-translate-y-1/2",
           mostrarSegunda ? "opacity-100" : "pointer-events-none -translate-x-24 opacity-0",
         )}
       >
