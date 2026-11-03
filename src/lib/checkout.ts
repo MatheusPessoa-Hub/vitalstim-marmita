@@ -7,8 +7,8 @@ export const CHECKOUT_URL = "https://wa.me/message/SE6FO5MPL7BWM1";
 /** Meta Pixel ID. Leave empty to keep the pixel off. */
 export const META_PIXEL_ID = "";
 
-export const PRECO = 39.99;
-export const PRECO_TEXTO = "R$ 39,99";
+export const PRECO = 37.90;
+export const PRECO_TEXTO = "R$ 37,90";
 export const GARANTIA_DIAS = 7;
 
 /** Campaign params carried from the landing URL to the checkout link. */

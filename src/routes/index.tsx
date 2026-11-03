@@ -21,16 +21,16 @@ import fotoMarmitas from "@/assets/landing/marmitas-prontas.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "VitalStim · Marmitas da semana sem mensalidade, R$ 39,99" },
+      { title: "VitalStim · Marmitas da semana sem mensalidade, R$ 37,90" },
       {
         name: "description",
         content:
-          "101 marmitas com foto, peso e calorias, cardápio da semana e lista de compras automática. Pagamento único de R$ 39,99, acesso vitalício.",
+          "101 marmitas com foto, peso e calorias, cardápio da semana e lista de compras automática. Pagamento único de R$ 37,90, acesso vitalício.",
       },
       { property: "og:title", content: "Uma semana mais leve, sem decidir o que comer." },
       {
         property: "og:description",
-        content: "Planejador de marmitas VitalStim: 101 pratos, lista de compras com um toque. R$ 39,99 uma vez, sem mensalidade.",
+        content: "Planejador de marmitas VitalStim: 101 pratos, lista de compras com um toque. R$ 37,90 uma vez, sem mensalidade.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
