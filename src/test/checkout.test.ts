@@ -2,8 +2,8 @@ import { describe, expect, it } from "vitest";
 import { CHECKOUT_URL, PRECO, montarLinkCheckout } from "@/lib/checkout";
 
 describe("checkout", () => {
-  it("costs R$ 39,99 one time", () => {
-    expect(PRECO).toBe(39.99);
+  it("costs R$ 37,90 one time", () => {
+    expect(PRECO).toBe(37.90);
   });
 
   it("keeps UTM params from the page on the checkout link", () => {
