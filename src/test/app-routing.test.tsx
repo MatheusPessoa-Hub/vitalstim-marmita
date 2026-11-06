@@ -14,4 +14,20 @@ describe("App routing", () => {
 
     expect(matches.at(-1)?.routeId).not.toBe(rootRouteId);
   });
+
+  it("keeps the sales page out of the published site", () => {
+    const router = createRouter({ routeTree, context: { queryClient: new QueryClient() } });
+
+    for (const path of ["/vendas", "/vendas/", "/comprar", "/oferta"]) {
+      expect(router.matchRoutes(path).at(-1)?.routeId).toBe(rootRouteId);
+    }
+  });
+
+  it("still answers the old app address", () => {
+    const router = createRouter({ routeTree, context: { queryClient: new QueryClient() } });
+
+    const matches = router.matchRoutes("/app");
+
+    expect(matches.at(-1)?.routeId).toBe("/app");
+  });
 });
