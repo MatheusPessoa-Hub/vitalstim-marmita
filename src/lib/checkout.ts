@@ -11,6 +11,9 @@ export const PRECO = 37.90;
 export const PRECO_TEXTO = "R$ 37,90";
 export const GARANTIA_DIAS = 7;
 
+/** Link sent on WhatsApp after the Pix is confirmed. */
+export const APP_URL = "https://marmita-vitalstim.lovable.app";
+
 /** Campaign params carried from the landing URL to the checkout link. */
 const PARAMS_RASTREIO = /^(utm_[a-z]+|fbclid|gclid|ttclid|src|sck)$/i;
 

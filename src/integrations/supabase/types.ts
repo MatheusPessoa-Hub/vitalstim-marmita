@@ -14,13 +14,264 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      pix_orders: {
+        Row: {
+          amount: number
+          copy_paste: string | null
+          created_at: string
+          customer_name: string
+          document: string
+          e2e: string | null
+          error: string | null
+          id: string
+          link_sent_at: string | null
+          paid_at: string | null
+          phone: string
+          qr_img: string | null
+          status: string
+          updated_at: string
+          xpag_transaction_id: string | null
+        }
+        Insert: {
+          amount: number
+          copy_paste?: string | null
+          created_at?: string
+          customer_name: string
+          document: string
+          e2e?: string | null
+          error?: string | null
+          id?: string
+          link_sent_at?: string | null
+          paid_at?: string | null
+          phone: string
+          qr_img?: string | null
+          status?: string
+          updated_at?: string
+          xpag_transaction_id?: string | null
+        }
+        Update: {
+          amount?: number
+          copy_paste?: string | null
+          created_at?: string
+          customer_name?: string
+          document?: string
+          e2e?: string | null
+          error?: string | null
+          id?: string
+          link_sent_at?: string | null
+          paid_at?: string | null
+          phone?: string
+          qr_img?: string | null
+          status?: string
+          updated_at?: string
+          xpag_transaction_id?: string | null
+        }
+        Relationships: []
+      }
+      wa_conversations: {
+        Row: {
+          current_order_id: string | null
+          customer_name: string | null
+          document: string | null
+          phone: string
+          state: string
+          updated_at: string
+        }
+        Insert: {
+          current_order_id?: string | null
+          customer_name?: string | null
+          document?: string | null
+          phone: string
+          state?: string
+          updated_at?: string
+        }
+        Update: {
+          current_order_id?: string | null
+          customer_name?: string | null
+          document?: string | null
+          phone?: string
+          state?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      wa_inbound_messages: {
+        Row: {
+          body: string | null
+          created_at: string
+          media_id: string | null
+          message_type: string
+          phone: string
+          provider_timestamp: string | null
+          reply_error: string | null
+          reply_status: string
+          wa_message_id: string
+        }
+        Insert: {
+          body?: string | null
+          created_at?: string
+          media_id?: string | null
+          message_type: string
+          phone: string
+          provider_timestamp?: string | null
+          reply_error?: string | null
+          reply_status?: string
+          wa_message_id: string
+        }
+        Update: {
+          body?: string | null
+          created_at?: string
+          media_id?: string | null
+          message_type?: string
+          phone?: string
+          provider_timestamp?: string | null
+          reply_error?: string | null
+          reply_status?: string
+          wa_message_id?: string
+        }
+        Relationships: []
+      }
+      wa_message_statuses: {
+        Row: {
+          errors: Json | null
+          provider_timestamp: string | null
+          received_at: string
+          recipient_id: string | null
+          status: string
+          wa_message_id: string
+        }
+        Insert: {
+          errors?: Json | null
+          provider_timestamp?: string | null
+          received_at?: string
+          recipient_id?: string | null
+          status: string
+          wa_message_id: string
+        }
+        Update: {
+          errors?: Json | null
+          provider_timestamp?: string | null
+          received_at?: string
+          recipient_id?: string | null
+          status?: string
+          wa_message_id?: string
+        }
+        Relationships: []
+      }
+      wa_outbound_messages: {
+        Row: {
+          created_at: string
+          delivered_at: string | null
+          error: string | null
+          failed_at: string | null
+          id: string
+          kind: string
+          phone: string
+          read_at: string | null
+          reply_to: string | null
+          sent_at: string | null
+          status: string
+          wa_message_id: string | null
+        }
+        Insert: {
+          created_at?: string
+          delivered_at?: string | null
+          error?: string | null
+          failed_at?: string | null
+          id?: string
+          kind: string
+          phone: string
+          read_at?: string | null
+          reply_to?: string | null
+          sent_at?: string | null
+          status?: string
+          wa_message_id?: string | null
+        }
+        Update: {
+          created_at?: string
+          delivered_at?: string | null
+          error?: string | null
+          failed_at?: string | null
+          id?: string
+          kind?: string
+          phone?: string
+          read_at?: string | null
+          reply_to?: string | null
+          sent_at?: string | null
+          status?: string
+          wa_message_id?: string | null
+        }
+        Relationships: []
+      }
+      whatsapp_webhook_events: {
+        Row: {
+          attempts: number
+          delivery_id: string
+          event: string
+          id: string
+          next_attempt_at: string
+          payload: Json
+          processed_at: string | null
+          processing_error: string | null
+          received_at: string
+        }
+        Insert: {
+          attempts?: number
+          delivery_id: string
+          event: string
+          id?: string
+          next_attempt_at?: string
+          payload: Json
+          processed_at?: string | null
+          processing_error?: string | null
+          received_at?: string
+        }
+        Update: {
+          attempts?: number
+          delivery_id?: string
+          event?: string
+          id?: string
+          next_attempt_at?: string
+          payload?: Json
+          processed_at?: string | null
+          processing_error?: string | null
+          received_at?: string
+        }
+        Relationships: []
+      }
+      xpag_webhook_events: {
+        Row: {
+          id: string
+          payload: Json
+          processed_at: string | null
+          processing_error: string | null
+          received_at: string
+        }
+        Insert: {
+          id?: string
+          payload: Json
+          processed_at?: string | null
+          processing_error?: string | null
+          received_at?: string
+        }
+        Update: {
+          id?: string
+          payload?: Json
+          processed_at?: string | null
+          processing_error?: string | null
+          received_at?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      wa_apply_statuses: {
+        Args: { _wa_message_id: string }
+        Returns: undefined
+      }
     }
     Enums: {
       [_ in never]: never
