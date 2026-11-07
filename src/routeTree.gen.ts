@@ -12,6 +12,9 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AppRouteImport } from './routes/app'
 import { Route as PrivacidadeRouteImport } from './routes/privacidade'
+import { Route as ApiPublicPixOrderIdRouteImport } from './routes/api/public/pix/$orderId'
+import { Route as ApiPublicWhatsappWebhookRouteImport } from './routes/api/public/whatsapp/webhook'
+import { Route as ApiPublicXpagWebhookRouteImport } from './routes/api/public/xpag/webhook'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -28,35 +31,82 @@ const PrivacidadeRoute = PrivacidadeRouteImport.update({
   path: '/privacidade',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiPublicPixOrderIdRoute = ApiPublicPixOrderIdRouteImport.update({
+  id: '/api/public/pix/$orderId',
+  path: '/api/public/pix/$orderId',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiPublicWhatsappWebhookRoute =
+  ApiPublicWhatsappWebhookRouteImport.update({
+    id: '/api/public/whatsapp/webhook',
+    path: '/api/public/whatsapp/webhook',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ApiPublicXpagWebhookRoute = ApiPublicXpagWebhookRouteImport.update({
+  id: '/api/public/xpag/webhook',
+  path: '/api/public/xpag/webhook',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/app': typeof AppRoute
   '/privacidade': typeof PrivacidadeRoute
+  '/api/public/pix/$orderId': typeof ApiPublicPixOrderIdRoute
+  '/api/public/whatsapp/webhook': typeof ApiPublicWhatsappWebhookRoute
+  '/api/public/xpag/webhook': typeof ApiPublicXpagWebhookRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/app': typeof AppRoute
   '/privacidade': typeof PrivacidadeRoute
+  '/api/public/pix/$orderId': typeof ApiPublicPixOrderIdRoute
+  '/api/public/whatsapp/webhook': typeof ApiPublicWhatsappWebhookRoute
+  '/api/public/xpag/webhook': typeof ApiPublicXpagWebhookRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/app': typeof AppRoute
   '/privacidade': typeof PrivacidadeRoute
+  '/api/public/pix/$orderId': typeof ApiPublicPixOrderIdRoute
+  '/api/public/whatsapp/webhook': typeof ApiPublicWhatsappWebhookRoute
+  '/api/public/xpag/webhook': typeof ApiPublicXpagWebhookRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/app' | '/privacidade'
+  fullPaths:
+    | '/'
+    | '/app'
+    | '/privacidade'
+    | '/api/public/pix/$orderId'
+    | '/api/public/whatsapp/webhook'
+    | '/api/public/xpag/webhook'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/app' | '/privacidade'
-  id: '__root__' | '/' | '/app' | '/privacidade'
+  to:
+    | '/'
+    | '/app'
+    | '/privacidade'
+    | '/api/public/pix/$orderId'
+    | '/api/public/whatsapp/webhook'
+    | '/api/public/xpag/webhook'
+  id:
+    | '__root__'
+    | '/'
+    | '/app'
+    | '/privacidade'
+    | '/api/public/pix/$orderId'
+    | '/api/public/whatsapp/webhook'
+    | '/api/public/xpag/webhook'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AppRoute: typeof AppRoute
   PrivacidadeRoute: typeof PrivacidadeRoute
+  ApiPublicPixOrderIdRoute: typeof ApiPublicPixOrderIdRoute
+  ApiPublicWhatsappWebhookRoute: typeof ApiPublicWhatsappWebhookRoute
+  ApiPublicXpagWebhookRoute: typeof ApiPublicXpagWebhookRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -82,6 +132,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PrivacidadeRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/public/pix/$orderId': {
+      id: '/api/public/pix/$orderId'
+      path: '/api/public/pix/$orderId'
+      fullPath: '/api/public/pix/$orderId'
+      preLoaderRoute: typeof ApiPublicPixOrderIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/public/whatsapp/webhook': {
+      id: '/api/public/whatsapp/webhook'
+      path: '/api/public/whatsapp/webhook'
+      fullPath: '/api/public/whatsapp/webhook'
+      preLoaderRoute: typeof ApiPublicWhatsappWebhookRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/public/xpag/webhook': {
+      id: '/api/public/xpag/webhook'
+      path: '/api/public/xpag/webhook'
+      fullPath: '/api/public/xpag/webhook'
+      preLoaderRoute: typeof ApiPublicXpagWebhookRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -89,6 +160,9 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AppRoute: AppRoute,
   PrivacidadeRoute: PrivacidadeRoute,
+  ApiPublicPixOrderIdRoute: ApiPublicPixOrderIdRoute,
+  ApiPublicWhatsappWebhookRoute: ApiPublicWhatsappWebhookRoute,
+  ApiPublicXpagWebhookRoute: ApiPublicXpagWebhookRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
