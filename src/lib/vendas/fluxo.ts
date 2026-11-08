@@ -13,7 +13,7 @@ export type Acao =
   | { tipo: "gerar_pix" }
   | { tipo: "conferir_pix" };
 
-export type Entrada = { botaoId?: string; texto?: string };
+export type Entrada = { botaoId?: string | undefined; texto?: string | undefined };
 
 export type Resultado = {
   estado: Estado;

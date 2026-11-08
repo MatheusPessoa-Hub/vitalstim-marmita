@@ -12,9 +12,9 @@ type EventRow = { id: string; event: string; payload: any; processed_at: string 
 
 const tsFromUnix = (s?: string) => (s ? new Date(Number(s) * 1000).toISOString() : null);
 
-function must<T extends { error: any }>(r: T, ctx: string): T {
+function must<T extends { error: any; data?: any }>(r: T, ctx: string): T & { data: NonNullable<T["data"]> } {
   if (r.error) throw new Error(`${ctx}: ${r.error.message}`);
-  return r;
+  return r as T & { data: NonNullable<T["data"]> };
 }
 
 export async function processarEvento(db: Db, row: EventRow, origin: string) {
@@ -63,7 +63,7 @@ async function processarMensagem(db: Db, m: any, origin: string) {
     const { data: conv } = must(await db.from("wa_conversations").select("*").eq("phone", phone).single(), "conv read");
 
     const r = proximoPasso(conv.state as Estado, { botaoId, texto });
-    const patch: Record<string, unknown> = { state: r.estado, updated_at: new Date().toISOString() };
+    const patch: { state: string; updated_at: string; customer_name?: string; document?: string } = { state: r.estado, updated_at: new Date().toISOString() };
     if (r.nome) patch.customer_name = r.nome;
     if (r.cpf) patch.document = r.cpf;
     must(await db.from("wa_conversations").update(patch).eq("phone", phone), "conv update");

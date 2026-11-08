@@ -15,8 +15,8 @@ export const Route = createFileRoute("/api/public/pix/$orderId")({
         if (qr.startsWith("http")) return Response.redirect(qr, 302);
         const m = qr.match(/^data:(image\/[a-z]+);base64,(.+)$/);
         if (!m) return new Response("Not found", { status: 404 });
-        const bytes = Uint8Array.from(atob(m[2]), (c) => c.charCodeAt(0));
-        return new Response(bytes, { headers: { "Content-Type": m[1], "Cache-Control": "private, max-age=600" } });
+        const bytes = Uint8Array.from(atob(m[2] ?? ""), (c) => c.charCodeAt(0));
+        return new Response(bytes, { headers: { "Content-Type": m[1] ?? "image/png", "Cache-Control": "private, max-age=600" } });
       },
     },
   },

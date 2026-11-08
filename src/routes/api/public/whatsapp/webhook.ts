@@ -10,7 +10,7 @@ export const Route = createFileRoute("/api/public/whatsapp/webhook")({
         let payload: unknown;
         try {
           ({ payload } = await verifyWebhookRequest({
-            req: request, secret: process.env["WHATSAPP_API_KEY"], maxBodyBytes: 4 * 1024 * 1024,
+            req: request, secret: process.env["WHATSAPP_API_KEY"] ?? "", maxBodyBytes: 4 * 1024 * 1024,
           }));
         } catch {
           return new Response("Invalid signature", { status: 401 });
