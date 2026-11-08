@@ -1,11 +1,12 @@
-const GATEWAY_URL = "https://connector-gateway.lovable.dev/udc_xpag";
+const API_URL = "https://api.xpag.global";
 
+// Direct API call: the connector gateway's Basic auth did not match XPag's credential check.
 function headers() {
-  const lovable = process.env["LOVABLE_API_KEY"];
-  const key = process.env["UDC_XPAG_API_KEY"];
-  if (!lovable) throw new Error("LOVABLE_API_KEY is not configured");
-  if (!key) throw new Error("UDC_XPAG_API_KEY is not configured");
-  return { Authorization: `Bearer ${lovable}`, "X-Connection-Api-Key": key, "Content-Type": "application/json" };
+  const id = process.env["XPAG_CLIENT_ID"];
+  const secret = process.env["XPAG_CLIENT_SECRET"];
+  if (!id) throw new Error("XPAG_CLIENT_ID is not configured");
+  if (!secret) throw new Error("XPAG_CLIENT_SECRET is not configured");
+  return { "X-Client-Id": id, "X-Client-Secret": secret, "Content-Type": "application/json" };
 }
 
 export type PixCriado = { transactionId: string; copyPaste: string; qrImg: string | null; qrUrl: string | null };
@@ -13,7 +14,7 @@ export type PixCriado = { transactionId: string; copyPaste: string; qrImg: strin
 export async function criarPix(input: {
   amount: number; name: string; document: string; externalId: string; webhookUrl: string;
 }): Promise<PixCriado> {
-  const res = await fetch(`${GATEWAY_URL}/cashin`, {
+  const res = await fetch(`${API_URL}/cashin`, {
     method: "POST",
     headers: headers(),
     body: JSON.stringify({
@@ -38,7 +39,7 @@ export async function criarPix(input: {
 export type Consulta = { status: string; amount: number; e2e: string | null; type: string };
 
 export async function consultarTransacao(transactionId: string): Promise<Consulta> {
-  const res = await fetch(`${GATEWAY_URL}/consult-transaction?transaction_id=${encodeURIComponent(transactionId)}`, {
+  const res = await fetch(`${API_URL}/consult-transaction?transaction_id=${encodeURIComponent(transactionId)}`, {
     headers: headers(),
   });
   const text = await res.text();
