@@ -106,6 +106,12 @@ async function gerarPix(db: Db, phone: string, nome: string, cpf: string, origin
     await enviarTexto(db, phone, pix.copyPaste, replyTo);
     await enviarBotoes(db, phone, "Assim que o pagamento cair, te envio o link do app aqui automaticamente. O Pix vale por 24 horas.", [BOTOES.jaPaguei, BOTOES.novoPix], replyTo);
   } catch (e) {
+    const { data: atual } = await db.from("pix_orders").select("xpag_transaction_id").eq("id", order.id).single();
+    if (atual?.xpag_transaction_id) {
+      // Pix was created; only the WhatsApp send failed. Keep the order payable.
+      await db.from("wa_conversations").update({ state: "aguardando_pix" }).eq("phone", phone);
+      throw e;
+    }
     await db.from("pix_orders").update({ status: "error", error: String(e).slice(0, 2000) }).eq("id", order.id);
     await db.from("wa_conversations").update({ state: "pedir_cpf" }).eq("phone", phone);
     await enviarTexto(db, phone, "Tive um problema para gerar seu Pix agora. 😔 Envie seu CPF de novo em alguns minutos para eu tentar outra vez.", replyTo);

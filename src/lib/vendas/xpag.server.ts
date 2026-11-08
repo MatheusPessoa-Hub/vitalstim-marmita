@@ -33,7 +33,7 @@ export async function criarPix(input: {
   const copyPaste = j.copyPaste ?? j.copy_paste ?? j.code;
   const transactionId = j.transaction_id ?? j.request_number;
   if (!j.ok || !copyPaste || !transactionId) throw new Error(`XPag cashin unexpected: ${text.slice(0, 500)}`);
-  return { transactionId, copyPaste, qrImg: j.qr_img ?? null, qrUrl: j.qr_url ?? null };
+  return { transactionId, copyPaste, qrImg: j.qr_img || j.qr_url || null, qrUrl: j.qr_url || null };
 }
 
 export type Consulta = { status: string; amount: number; e2e: string | null; type: string };
