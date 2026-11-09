@@ -53,6 +53,14 @@ async function processarMensagem(db: Db, m: any, origin: string) {
   if (inbound.reply_status === "done" || inbound.reply_status === "unresolved") return;
   if (inbound.reply_status === "sending") {
     // A previous attempt may have sent part of the reply; do not blindly resend.
+    try {
+      if (await retomarPix(db, phone, origin, m.id)) {
+        must(await db.from("wa_inbound_messages").update({ reply_status: "done" }).eq("wa_message_id", m.id), "reply done");
+        return;
+      }
+    } catch (e) {
+      console.error("retomarPix failed", e);
+    }
     must(await db.from("wa_inbound_messages").update({ reply_status: "unresolved" }).eq("wa_message_id", m.id), "mark unresolved");
     return;
   }
@@ -81,6 +89,29 @@ async function processarMensagem(db: Db, m: any, origin: string) {
   }
 }
 
+// Copy-paste goes first: it is the essential part and must arrive even if the
+// request is cut short while the slower QR image is being sent.
+async function enviarCodigoPix(db: Db, phone: string, orderId: string, copyPaste: string, origin: string, replyTo: string) {
+  await enviarTexto(db, phone, "Copie o código *Pix copia e cola* abaixo e cole no app do seu banco:", replyTo);
+  await enviarTexto(db, phone, copyPaste, replyTo);
+  await enviarBotoes(db, phone, "Assim que o pagamento cair, te envio o link do app aqui automaticamente. O Pix vale por 24 horas.", [BOTOES.jaPaguei, BOTOES.novoPix], replyTo);
+  try {
+    await enviarImagem(db, phone, `${origin}/api/public/pix/${orderId}`, "📲 Ou escaneie o QR Code no app do seu banco.", replyTo);
+  } catch (e) {
+    console.error("QR image send failed; copy-paste already sent", e);
+  }
+}
+
+// A retry found a reply cut short mid-send. If a Pix already exists, resend its code.
+async function retomarPix(db: Db, phone: string, origin: string, replyTo: string) {
+  const { data: conv } = await db.from("wa_conversations").select("state,current_order_id").eq("phone", phone).single();
+  if (conv?.state !== "aguardando_pix" || !conv.current_order_id) return false;
+  const { data: order } = await db.from("pix_orders").select("id,status,copy_paste").eq("id", conv.current_order_id).single();
+  if (!order || order.status !== "pending" || !order.copy_paste) return false;
+  await enviarCodigoPix(db, phone, order.id, order.copy_paste, origin, replyTo);
+  return true;
+}
+
 async function gerarPix(db: Db, phone: string, nome: string, cpf: string, origin: string, replyTo: string) {
   const { data: order } = must(await db.from("pix_orders").insert({
     phone, customer_name: nome, document: cpf, amount: PRECO,
@@ -97,14 +128,7 @@ async function gerarPix(db: Db, phone: string, nome: string, cpf: string, origin
     }).eq("id", order.id), "order update");
     must(await db.from("wa_conversations").update({ current_order_id: order.id }).eq("phone", phone), "conv order");
 
-    try {
-      await enviarImagem(db, phone, `${origin}/api/public/pix/${order.id}`, "📲 Escaneie o QR Code no app do seu banco para pagar.", replyTo);
-    } catch (e) {
-      console.error("QR image send failed; copy-paste still sent", e);
-    }
-    await enviarTexto(db, phone, "Ou copie o código *Pix copia e cola* abaixo e cole no app do seu banco:", replyTo);
-    await enviarTexto(db, phone, pix.copyPaste, replyTo);
-    await enviarBotoes(db, phone, "Assim que o pagamento cair, te envio o link do app aqui automaticamente. O Pix vale por 24 horas.", [BOTOES.jaPaguei, BOTOES.novoPix], replyTo);
+    await enviarCodigoPix(db, phone, order.id, pix.copyPaste, origin, replyTo);
   } catch (e) {
     const { data: atual } = await db.from("pix_orders").select("xpag_transaction_id").eq("id", order.id).single();
     if (atual?.xpag_transaction_id) {
