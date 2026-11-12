@@ -1,6 +1,8 @@
 import { PRECO } from "@/lib/checkout";
 import { BOTOES, TEXTOS, proximoPasso, type Estado } from "./fluxo";
-import { enviarBotoes, enviarImagem, enviarTexto } from "./whatsapp.server";
+import { enviarBotoes, enviarImagem, enviarTexto, enviarVideo } from "./whatsapp.server";
+
+const VIDEO_CONHECER = "/__l5e/assets-v1/9ce13914-2c48-44c6-916a-01ba4bd5d474/conhecer-app.mp4";
 import { consultarTransacao, criarPix } from "./xpag.server";
 
 export async function getDb() {
@@ -79,6 +81,7 @@ async function processarMensagem(db: Db, m: any, origin: string) {
     for (const a of r.acoes) {
       if (a.tipo === "texto") await enviarTexto(db, phone, a.texto, m.id);
       else if (a.tipo === "botoes") await enviarBotoes(db, phone, a.texto, a.botoes, m.id);
+      else if (a.tipo === "video") await enviarVideo(db, phone, `${origin}${VIDEO_CONHECER}`, a.legenda, m.id);
       else if (a.tipo === "gerar_pix") await gerarPix(db, phone, conv.customer_name ?? "", r.cpf!, origin, m.id);
       else if (a.tipo === "conferir_pix") await conferirPix(db, phone, conv.current_order_id, m.id);
     }

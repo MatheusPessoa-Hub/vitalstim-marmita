@@ -18,6 +18,13 @@ describe("fluxo de venda no WhatsApp", () => {
     expect(c.acoes).toEqual([{ tipo: "gerar_pix" }]);
   });
 
+  it("Conhecer o app envia o vídeo antes dos botões", () => {
+    const r = proximoPasso("menu", { botaoId: "conhecer" });
+    expect(r.estado).toBe("menu");
+    expect(r.acoes[0]).toMatchObject({ tipo: "video" });
+    expect(r.acoes[1]).toMatchObject({ tipo: "botoes" });
+  });
+
   it("CPF inválido não gera Pix", () => {
     const r = proximoPasso("pedir_cpf", { texto: "123" });
     expect(r.estado).toBe("pedir_cpf");

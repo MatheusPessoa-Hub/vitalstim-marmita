@@ -55,3 +55,7 @@ export function enviarBotoes(db: Db, phone: string, texto: string, botoes: Botao
 export function enviarImagem(db: Db, phone: string, link: string, legenda: string, replyTo?: string) {
   return enviar(db, phone, "image", { type: "image", image: { link, caption: legenda } }, replyTo);
 }
+
+export function enviarVideo(db: Db, phone: string, link: string, legenda: string, replyTo?: string) {
+  return enviar(db, phone, "video", { type: "video", video: { link, caption: legenda.slice(0, 1024) } }, replyTo);
+}

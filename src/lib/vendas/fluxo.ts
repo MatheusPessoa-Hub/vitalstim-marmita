@@ -10,6 +10,7 @@ export type Botao = { id: string; title: string };
 export type Acao =
   | { tipo: "texto"; texto: string }
   | { tipo: "botoes"; texto: string; botoes: Botao[] }
+  | { tipo: "video"; legenda: string }
   | { tipo: "gerar_pix" }
   | { tipo: "conferir_pix" };
 
@@ -32,6 +33,7 @@ export const BOTOES = {
 
 export const TEXTOS = {
   boasVindas: `Olá! 👋 Aqui é o *VitalStim*, o planejador de marmitas da semana.\n\nUma semana mais leve, sem decidir o que comer. *Pagamento único de ${PRECO_TEXTO}*, acesso vitalício e *sem mensalidade*.\n\nComo posso te ajudar?`,
+  conhecerLegenda: `🥗 *VitalStim* — o planejador de marmitas da semana. 101 marmitas, cardápio com almoço e jantar e lista de compras com um toque. ${PRECO_TEXTO} uma única vez, sem mensalidade.`,
   conhecer: `🥗 *O que vem no VitalStim*\n\n• 101 marmitas com foto, peso e calorias estimadas (frango, carnes, suínos, peixes, vegetarianas e veganas)\n• Cardápio da semana com almoço e jantar\n• Lista de compras gerada com um toque\n• Ajuste de porções\n• Abre no navegador do celular, sem instalar nada\n\n💰 ${PRECO_TEXTO} uma única vez — sem mensalidade.\n🛡️ Garantia de ${GARANTIA_DIAS} dias com reembolso total.`,
   duvidas: `❓ *Dúvidas frequentes*\n\n*Tem mensalidade?* Não. Você paga ${PRECO_TEXTO} uma vez e usa para sempre.\n\n*Como recebo?* Assim que o Pix for confirmado, mando o link do app aqui mesmo no WhatsApp.\n\n*Precisa instalar?* Não, abre no navegador.\n\n*E se eu não gostar?* Garantia de ${GARANTIA_DIAS} dias com reembolso total.\n\n*As calorias são exatas?* São estimativas e não substituem um nutricionista.`,
   pedirNome: "Ótimo! 🎉 Para gerar seu Pix, me diga seu *nome completo*:",
@@ -78,7 +80,13 @@ export function proximoPasso(estado: Estado, entrada: Entrada): Resultado {
   }
 
   if (botao === BOTOES.conhecer.id) {
-    return { estado: "menu", acoes: [{ tipo: "botoes", texto: TEXTOS.conhecer, botoes: [BOTOES.comprar, BOTOES.duvidas] }] };
+    return {
+      estado: "menu",
+      acoes: [
+        { tipo: "video", legenda: TEXTOS.conhecerLegenda },
+        { tipo: "botoes", texto: TEXTOS.conhecer, botoes: [BOTOES.comprar, BOTOES.duvidas] },
+      ],
+    };
   }
   if (botao === BOTOES.duvidas.id) {
     return { estado: "menu", acoes: [{ tipo: "botoes", texto: TEXTOS.duvidas, botoes: [BOTOES.comprar, BOTOES.conhecer] }] };
