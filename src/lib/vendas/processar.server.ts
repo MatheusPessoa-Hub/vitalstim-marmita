@@ -95,6 +95,12 @@ async function processarMensagem(db: Db, m: any, origin: string) {
 // Copy-paste goes first: it is the essential part and must arrive even if the
 // request is cut short while the slower QR image is being sent.
 async function enviarCodigoPix(db: Db, phone: string, orderId: string, copyPaste: string, origin: string, replyTo: string) {
+  // Atomic claim: only one attempt (original or webhook retry) may send the code.
+  // A stale claim (>5 min, sender died) may be retaken by recovery.
+  const limite = new Date(Date.now() - 5 * 60_000).toISOString();
+  const { data: claim } = must(await db.from("pix_orders").update({ code_claimed_at: new Date().toISOString() })
+    .eq("id", orderId).or(`code_claimed_at.is.null,code_claimed_at.lt.${limite}`).select("id"), "code claim");
+  if (!claim?.length) return;
   await enviarTexto(db, phone, "Copie o código *Pix copia e cola* abaixo e cole no app do seu banco:", replyTo);
   await enviarTexto(db, phone, copyPaste, replyTo);
   await enviarBotoes(db, phone, "Assim que o pagamento cair, te envio o link do app aqui automaticamente. O Pix vale por 24 horas.", [BOTOES.jaPaguei, BOTOES.novoPix], replyTo);

@@ -17,6 +17,7 @@ export type Database = {
       pix_orders: {
         Row: {
           amount: number
+          code_claimed_at: string | null
           copy_paste: string | null
           created_at: string
           customer_name: string
@@ -34,6 +35,7 @@ export type Database = {
         }
         Insert: {
           amount: number
+          code_claimed_at?: string | null
           copy_paste?: string | null
           created_at?: string
           customer_name: string
@@ -51,6 +53,7 @@ export type Database = {
         }
         Update: {
           amount?: number
+          code_claimed_at?: string | null
           copy_paste?: string | null
           created_at?: string
           customer_name?: string
