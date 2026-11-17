@@ -3,3 +3,8 @@
 ALTER TABLE public.pix_orders
   ALTER COLUMN customer_name DROP NOT NULL,
   ALTER COLUMN document DROP NOT NULL;
+
+-- Return conversations interrupted in the old name/CPF steps to the main menu.
+UPDATE public.wa_conversations
+SET state = 'menu', updated_at = now()
+WHERE state IN ('pedir_nome', 'pedir_cpf');
