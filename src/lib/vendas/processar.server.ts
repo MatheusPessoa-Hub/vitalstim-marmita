@@ -73,16 +73,14 @@ async function processarMensagem(db: Db, m: any, origin: string) {
     const { data: conv } = must(await db.from("wa_conversations").select("*").eq("phone", phone).single(), "conv read");
 
     const r = proximoPasso(conv.state as Estado, { botaoId, texto });
-    const patch: { state: string; updated_at: string; customer_name?: string; document?: string } = { state: r.estado, updated_at: new Date().toISOString() };
-    if (r.nome) patch.customer_name = r.nome;
-    if (r.cpf) patch.document = r.cpf;
+    const patch: { state: string; updated_at: string } = { state: r.estado, updated_at: new Date().toISOString() };
     must(await db.from("wa_conversations").update(patch).eq("phone", phone), "conv update");
 
     for (const a of r.acoes) {
       if (a.tipo === "texto") await enviarTexto(db, phone, a.texto, m.id);
       else if (a.tipo === "botoes") await enviarBotoes(db, phone, a.texto, a.botoes, m.id);
       else if (a.tipo === "video") await enviarVideo(db, phone, `${origin}${VIDEO_CONHECER}`, a.legenda, m.id);
-      else if (a.tipo === "gerar_pix") await gerarPix(db, phone, conv.customer_name ?? "", r.cpf!, origin, m.id);
+      else if (a.tipo === "gerar_pix") await gerarPix(db, phone, origin, m.id);
       else if (a.tipo === "conferir_pix") await conferirPix(db, phone, conv.current_order_id, m.id);
     }
     must(await db.from("wa_inbound_messages").update({ reply_status: "done", reply_error: null }).eq("wa_message_id", m.id), "reply done");
@@ -103,12 +101,12 @@ async function enviarCodigoPix(db: Db, phone: string, orderId: string, copyPaste
   if (!claim?.length) return;
   await enviarTexto(db, phone, "Copie o código *Pix copia e cola* abaixo e cole no app do seu banco:", replyTo);
   await enviarTexto(db, phone, copyPaste, replyTo);
-  await enviarBotoes(db, phone, "Assim que o pagamento cair, te envio o link do app aqui automaticamente. O Pix vale por 24 horas.", [BOTOES.jaPaguei, BOTOES.novoPix], replyTo);
   try {
-    await enviarImagem(db, phone, `${origin}/api/public/pix/${orderId}`, "📲 Ou escaneie o QR Code no app do seu banco.", replyTo);
+    await enviarImagem(db, phone, `${origin}/api/public/pix/${orderId}`, "📲 QR Code para pagar pelo app do seu banco.", replyTo);
   } catch (e) {
     console.error("QR image send failed; copy-paste already sent", e);
   }
+  await enviarBotoes(db, phone, "Assim que o pagamento cair, te envio o link do app aqui automaticamente. O Pix vale por 24 horas.", [BOTOES.jaPaguei, BOTOES.novoPix], replyTo);
 }
 
 // A retry found a reply cut short mid-send. If a Pix already exists, resend its code.
@@ -121,14 +119,14 @@ async function retomarPix(db: Db, phone: string, origin: string, replyTo: string
   return true;
 }
 
-async function gerarPix(db: Db, phone: string, nome: string, cpf: string, origin: string, replyTo: string) {
+async function gerarPix(db: Db, phone: string, origin: string, replyTo: string) {
   const { data: order } = must(await db.from("pix_orders").insert({
-    phone, customer_name: nome, document: cpf, amount: PRECO,
+    phone, amount: PRECO,
   }).select("id").single(), "order insert");
 
   try {
     const pix = await criarPix({
-      amount: PRECO, name: nome, document: cpf, externalId: order.id,
+      amount: PRECO, externalId: order.id,
       webhookUrl: `${origin}/api/public/xpag/webhook`,
     });
     must(await db.from("pix_orders").update({
@@ -146,8 +144,8 @@ async function gerarPix(db: Db, phone: string, nome: string, cpf: string, origin
       throw e;
     }
     await db.from("pix_orders").update({ status: "error", error: String(e).slice(0, 2000) }).eq("id", order.id);
-    await db.from("wa_conversations").update({ state: "pedir_cpf" }).eq("phone", phone);
-    await enviarTexto(db, phone, "Tive um problema para gerar seu Pix agora. 😔 Envie seu CPF de novo em alguns minutos para eu tentar outra vez.", replyTo);
+    await db.from("wa_conversations").update({ state: "menu" }).eq("phone", phone);
+    await enviarBotoes(db, phone, "Tive um problema para gerar seu Pix agora. 😔 Tente novamente em alguns minutos.", [BOTOES.comprar], replyTo);
   }
 }
 
