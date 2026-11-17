@@ -12,7 +12,7 @@ function headers() {
 export type PixCriado = { transactionId: string; copyPaste: string; qrImg: string | null; qrUrl: string | null };
 
 export async function criarPix(input: {
-  amount: number; name: string; document: string; externalId: string; webhookUrl: string;
+  amount: number; name?: string; document?: string; externalId: string; webhookUrl: string;
 }): Promise<PixCriado> {
   const res = await fetch(`${API_URL}/cashin`, {
     method: "POST",
@@ -20,8 +20,8 @@ export async function criarPix(input: {
     body: JSON.stringify({
       currency: "BRL",
       amount: input.amount,
-      name: input.name,
-      document: input.document,
+      ...(input.name ? { name: input.name } : {}),
+      ...(input.document ? { document: input.document } : {}),
       description: "VitalStim - acesso vitalício",
       external_id: input.externalId,
       webhook_url: input.webhookUrl,
