@@ -1,21 +1,21 @@
 import { describe, expect, it } from "vitest";
-import { cpfValido, proximoPasso } from "@/lib/vendas/fluxo";
+import { proximoPasso, TEXTOS } from "@/lib/vendas/fluxo";
 
 describe("fluxo de venda no WhatsApp", () => {
-  it("valida CPF pelos dígitos verificadores", () => {
-    expect(cpfValido("529.982.247-25")).toBe(true);
-    expect(cpfValido("52998224724")).toBe(false);
-    expect(cpfValido("11111111111")).toBe(false);
+  it("Quero comprar gera o Pix diretamente, sem pedir nome ou CPF", () => {
+    const a = proximoPasso("menu", { botaoId: "comprar" });
+    expect(a.estado).toBe("aguardando_pix");
+    expect(a.acoes).toEqual([{ tipo: "gerar_pix" }]);
   });
 
-  it("Quero comprar → nome → CPF → gera Pix", () => {
-    const a = proximoPasso("menu", { botaoId: "comprar" });
-    expect(a.estado).toBe("pedir_nome");
-    const b = proximoPasso(a.estado, { texto: "Maria Souza" });
-    expect(b).toMatchObject({ estado: "pedir_cpf", nome: "Maria Souza" });
-    const c = proximoPasso(b.estado, { texto: "52998224725" });
-    expect(c.estado).toBe("aguardando_pix");
-    expect(c.acoes).toEqual([{ tipo: "gerar_pix" }]);
+  it("Gerar novo Pix também vai direto para a cobrança", () => {
+    const a = proximoPasso("aguardando_pix", { botaoId: "novo_pix" });
+    expect(a.estado).toBe("aguardando_pix");
+    expect(a.acoes).toEqual([{ tipo: "gerar_pix" }]);
+  });
+
+  it("usa exatamente a nova saudação solicitada", () => {
+    expect(TEXTOS.boasVindas).toBe("Olá! 👋 Aqui é a *VitalStim*, o planejador de marmitas da semana. 🍛\n\nUma semana mais organizada ,saudável e fitness . *Pagamento único de R$ 17,90*, acesso vitalício e *sem mensalidade*.\n\nComo posso te ajudar?");
   });
 
   it("Conhecer o app envia o vídeo antes dos botões", () => {
@@ -25,9 +25,8 @@ describe("fluxo de venda no WhatsApp", () => {
     expect(r.acoes[1]).toMatchObject({ tipo: "botoes" });
   });
 
-  it("CPF inválido não gera Pix", () => {
-    const r = proximoPasso("pedir_cpf", { texto: "123" });
-    expect(r.estado).toBe("pedir_cpf");
-    expect(r.acoes.some((x) => x.tipo === "gerar_pix")).toBe(false);
+  it("Já paguei continua acionando a conferência do Pix", () => {
+    const r = proximoPasso("aguardando_pix", { botaoId: "ja_paguei" });
+    expect(r.acoes).toEqual([{ tipo: "conferir_pix" }]);
   });
 });
