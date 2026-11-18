@@ -4,7 +4,7 @@ const GATEWAY_URL = "https://connector-gateway.lovable.dev/whatsapp";
 
 type Db = Awaited<typeof import("@/integrations/supabase/client.server")>["supabaseAdmin"];
 
-function headers() {
+function lovableHeaders() {
   const lovable = process.env["LOVABLE_API_KEY"];
   const wa = process.env["WHATSAPP_API_KEY"];
   if (!lovable) throw new Error("LOVABLE_API_KEY is not configured");
@@ -12,12 +12,31 @@ function headers() {
   return { Authorization: `Bearer ${lovable}`, "X-Connection-Api-Key": wa, "Content-Type": "application/json" };
 }
 
-async function enviar(db: Db, phone: string, kind: string, conteudo: Record<string, unknown>, replyTo?: string) {
-  const res = await fetch(`${GATEWAY_URL}/messages`, {
+async function enviarViaMeta(conteudo: Record<string, unknown>) {
+  const token = process.env["META_WHATSAPP_ACCESS_TOKEN"];
+  const phoneNumberId = process.env["META_WHATSAPP_PHONE_NUMBER_ID"];
+  const version = process.env["META_GRAPH_API_VERSION"];
+  if (!token) throw new Error("META_WHATSAPP_ACCESS_TOKEN is not configured");
+  if (!phoneNumberId) throw new Error("META_WHATSAPP_PHONE_NUMBER_ID is not configured");
+  if (!version || !/^v\\d+\\.\\d+$/.test(version)) throw new Error("META_GRAPH_API_VERSION must be set (for example, v25.0)");
+
+  return fetch(`https://graph.facebook.com/${version}/${phoneNumberId}/messages`, {
     method: "POST",
-    headers: headers(),
-    body: JSON.stringify({ messaging_product: "whatsapp", recipient_type: "individual", to: phone, ...conteudo }),
+    headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ messaging_product: "whatsapp", recipient_type: "individual", ...conteudo }),
   });
+}
+
+async function enviar(db: Db, phone: string, kind: string, conteudo: Record<string, unknown>, replyTo?: string) {
+  const provider = process.env["WHATSAPP_PROVIDER"] ?? "lovable";
+  const res = provider === "meta_cloud"
+    ? await enviarViaMeta({ to: phone, ...conteudo })
+    : await fetch(`${GATEWAY_URL}/messages`, {
+        method: "POST",
+        headers: lovableHeaders(),
+        body: JSON.stringify({ messaging_product: "whatsapp", recipient_type: "individual", to: phone, ...conteudo }),
+      });
+
   const body = await res.text();
   if (!res.ok) {
     console.error(`WhatsApp send failed [${res.status}]: ${body}`);
@@ -28,7 +47,8 @@ async function enviar(db: Db, phone: string, kind: string, conteudo: Record<stri
     if (error) console.error("outbound record failed", error);
     throw new Error(`WhatsApp send failed [${res.status}]: ${body}`);
   }
-  const waId: string | undefined = JSON.parse(body)?.messages?.[0]?.id;
+  const response = JSON.parse(body);
+  const waId: string | undefined = response?.messages?.[0]?.id;
   const { error } = await db.from("wa_outbound_messages").insert({
     phone, kind, reply_to: replyTo ?? null, wa_message_id: waId ?? null, status: "accepted",
   });
